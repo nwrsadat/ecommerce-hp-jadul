@@ -137,3 +137,8 @@
 #total {
     text-align: right;
 }
+
+#beli {
+    position: relative;
+    left: 610px;
+}

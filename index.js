@@ -146,3 +146,14 @@ function deleteCard(event) {
 	console.log(arrDel);
 	parent.remove()
 }
+
+let beli = document.getElementById('beli');
+beli.addEventListener('click', doneBuy);
+
+doneBuy(beli)
+
+function doneBuy(event) {
+	if (keranjangBelanja.length !== 0) {
+		alert('Terima kasih telah berbelanja di website kami!')
+	}
+}
