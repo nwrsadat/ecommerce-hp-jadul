@@ -133,3 +133,7 @@
     margin-bottom: 10px;
     text-align: center;
 }
+
+#total {
+    text-align: right;
+}
