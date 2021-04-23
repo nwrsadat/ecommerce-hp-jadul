@@ -47,6 +47,10 @@
     padding: 10px;
 }
 
+.bucket h1 {
+    text-align: center;
+}
+
 .bucket h4{
     position: relative;
     left: 50px;
