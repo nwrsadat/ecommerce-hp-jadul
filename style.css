@@ -1,0 +1,135 @@
+* {
+    margin : 0;
+}
+
+.navbar {
+    padding: 0px;
+    background-color: cadetblue;
+    height: 90px;
+}
+.navbar li {
+    display: inline-block;
+    font-family: sans-serif;
+    position: relative;
+    padding-left: 20px;   
+}
+
+.navbar img {
+    width: 50px;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+}
+
+.mainbrand img{
+    position:relative;
+    left: 380px;
+    top: 50px;
+    display:inline-block;
+}
+.brand img{
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 450px;
+    margin-top: 100px;
+    margin-bottom: 4px;
+    
+}
+
+.bucket{
+    border: 1px solid black;
+    border-radius: 30px;
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+    bottom: 250px;
+    padding: 10px;
+}
+
+.bucket h4{
+    position: relative;
+    left: 50px;
+}
+
+.bucket img{
+    width: 200px;
+}
+
+#content{
+    text-align: center;
+    margin-top: -200px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+}
+.item{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.item button {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+
+.item button:hover {
+    color: aquamarine;
+}
+
+.item img {
+    width: 150px;
+}
+
+.footer {
+    background-color:#fbfbfb;
+    display: block;
+    height: 300px;
+}
+.kreditbrand {
+    text-align: center;
+    position: relative;
+    bottom: -60px;
+}
+.kreditbrand p {
+    position: relative;
+    bottom: 40px;
+    font-family: sans-serif;
+}
+
+.kreditbrand img {
+    width: 70px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 20px;
+}
+
+.logistik {
+    text-align: center;
+    font-family: sans-serif;
+    position: relative;
+    bottom: -60px;
+}
+
+.logistik img{
+    width: 80px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+    text-align: center;
+}
